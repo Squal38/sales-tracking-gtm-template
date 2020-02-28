@@ -1,0 +1,5 @@
+homepage: "https://www.kelkoogroup.com/"
+documentation: "https://www.kelkoogroup.com/kelkoo-customer-service/support-for-merchants/sales-tracking-guides/"
+versions:
+  - sha: 4b529bf28b0162f5f242decf285857dfb970d438
+    changeNotes: Initial release. 
