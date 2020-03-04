@@ -1,6 +1,6 @@
 # Kelkoo Group Sales Tracking Tag Google Tag Manager Template
 
-This tag template makes it easy for merchants to add Kelkoo Group Sales Tracking Tag to Google Tag Manager container. This template is now available through Google's [Communinity Template Gallery](https://tagmanager.google.com/gallery/#/owners/tobecompleted). If you have any questions or need any assistance with using this template, please contact your Account Manager.
+This tag template makes it easy for merchants to add Kelkoo Group Sales Tracking Tag to Google Tag Manager container. This template is now available through Google's [Community Template Gallery](https://tagmanager.google.com/gallery/). If you have any questions or need any assistance with using this template, please contact your Account Manager.
 
 ### Contents: 
 * [Configuring your tag](#config)
@@ -12,8 +12,8 @@ This tag template makes it easy for merchants to add Kelkoo Group Sales Tracking
 
 ## <a name="config"></a>Configuring your tag
 
-1. Download the the .zip of this repository and extract (unzip) the archive  
-1. Create a new template in Google Tag Manager and import the template.tpl file from the zip using the overflow menu at the top right
+1. On the `Templates` tab, click on the button `Search Gallery` of the block `Tag Templates` 
+1. Search for the Kelkoo Group Sales Tracking Tag, select it, and in the `Template Details` click to the button `Add to workspace`
 1. Add a new tag, search for the Kelkoo Group Sales Tracking Tag custom template and select it
 1. Select the "all page view" trigger for the tag
 1. Save the tag
@@ -29,7 +29,8 @@ You need to add in your "Thank you page" (the page displayed after customer paym
 
 ```
 <script>
-	dataLayer = [{
+    window.dataLayer = window.dataLayer || [];
+    dataLayer.push({
 		"kkstrack": {
 			"merchantInfo": [{ "country":'COUNTRY_CODE', "merchantId":'COMID_VALUE' }],
 			"orderValue": 'ORDER_VALUE',
@@ -40,28 +41,7 @@ You need to add in your "Thank you page" (the page displayed after customer paym
 	        	{"productname": 'PRODUCTx_NAME',"productid": 'PRODUCTx_ID',"quantity": 'PRODUCTx_QUANTITY',"price": 'PRODUCTx_PRICE'}
 			]
 		}
-    }];
-</script>
-```
-
-If you already have a data layer in this page, it should lokk like this:
-
-```
-<script>
-	dataLayer = [{
-		"kkstrack": {
-			"merchantInfo": [{ "country":'COUNTRY_CODE', "merchantId":'COMID_VALUE' }],
-			"orderValue": 'ORDER_VALUE',
-			"orderId": 'ORDER_ID',
-			"returningUser": true,
-			"basket": [
-				{"productname": 'PRODUCTx_NAME',"productid": 'PRODUCTx_ID',"quantity": 'PRODUCTx_QUANTITY',"price": 'PRODUCTx_PRICE'},
-	        	{"productname": 'PRODUCTx_NAME',"productid": 'PRODUCTx_ID',"quantity": 'PRODUCTx_QUANTITY',"price": 'PRODUCTx_PRICE'}
-			]
-		},
-		"YourExistingParam": 'param value',
-		"AnotherExistingParam": 'param value'
-    }];
+    };
 </script>
 ```
 
@@ -83,7 +63,8 @@ If you have several campaigns with Kelkoo Group, then you have several Merchant 
 
 ```
 <script>
-	dataLayer = [{
+    window.dataLayer = window.dataLayer || [];
+    dataLayer.push({
 		"kkstrack": {
 			"merchantInfo": [,{"country":'COUNTRY_CODE1', "merchantId":'COMID_VALUE1'},{"country":'COUNTRY_CODE1', "merchantId":'COMID_VALUE1'}],
 			"orderValue": 'ORDER_VALUE',
@@ -94,7 +75,7 @@ If you have several campaigns with Kelkoo Group, then you have several Merchant 
 	        	{"productname": 'PRODUCTx_NAME',"productid": 'PRODUCTx_ID',"quantity": 'PRODUCTx_QUANTITY',"price": 'PRODUCTx_PRICE'}
 			]
 		}
-    }];
+    };
 </script>
 ```
 
