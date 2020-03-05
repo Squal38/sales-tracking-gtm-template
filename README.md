@@ -38,7 +38,7 @@ You need to add in your "Thank you page" (the page displayed after customer paym
 			"returningUser": true,
 			"basket": [
 				{"productname": 'PRODUCTx_NAME',"productid": 'PRODUCTx_ID',"quantity": 'PRODUCTx_QUANTITY',"price": 'PRODUCTx_PRICE'},
-	        	{"productname": 'PRODUCTx_NAME',"productid": 'PRODUCTx_ID',"quantity": 'PRODUCTx_QUANTITY',"price": 'PRODUCTx_PRICE'}
+				{"productname": 'PRODUCTx_NAME',"productid": 'PRODUCTx_ID',"quantity": 'PRODUCTx_QUANTITY',"price": 'PRODUCTx_PRICE'}
 			]
 		}
     };
@@ -72,7 +72,7 @@ If you have several campaigns with Kelkoo Group, then you have several Merchant 
 			"returningUser": true,
 			"basket": [
 				{"productname": 'PRODUCTx_NAME',"productid": 'PRODUCTx_ID',"quantity": 'PRODUCTx_QUANTITY',"price": 'PRODUCTx_PRICE'},
-	        	{"productname": 'PRODUCTx_NAME',"productid": 'PRODUCTx_ID',"quantity": 'PRODUCTx_QUANTITY',"price": 'PRODUCTx_PRICE'}
+				{"productname": 'PRODUCTx_NAME',"productid": 'PRODUCTx_ID',"quantity": 'PRODUCTx_QUANTITY',"price": 'PRODUCTx_PRICE'}
 			]
 		}
     };
