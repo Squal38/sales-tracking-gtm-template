@@ -50,7 +50,7 @@ You need to add in your "Thank you page" (the page displayed after customer paym
 
 This is the 2-letter country code for the country on which your products are listed on Kelkoo Group: ‘at’ for Austria, ‘be’ for Belgium, ‘br’ for Brazil, ‘ch’ for Switzerland, ‘cz’ for Czech Republic, ‘de’ for Germany, ‘dk’ for Denmark, ‘es’ for Spain, ‘fi’ for Finland, ‘fr’ for France, ‘ie’ for Ireland, ‘it’ for Italy, ‘mx’ for Mexico, ‘nb’ for Flemish Belgium, ‘nl’ for Netherlands, ‘no’ for Norway, ‘pl’ for Poland, ‘pt’ for Portugal, ‘ru’ for Russia, ‘se’ for Sweden, ‘uk’ for United Kingdom, ‘us’ for United States.
 
-If you have several campaigns on Kelkoo Group, make sure to use the country code associated to your merchantId, as provided in yout Merchant Extranet.
+If you have several campaigns on Kelkoo Group, make sure to use the country code associated to your merchantId, as provided in your Merchant Extranet.
 
 
 ### COMID_VALUE:
