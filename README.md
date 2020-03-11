@@ -66,7 +66,7 @@ If you have several campaigns with Kelkoo Group, then you have several Merchant 
     window.dataLayer = window.dataLayer || [];
     dataLayer.push({
 		"kkstrack": {
-			"merchantInfo": [,{"country":'COUNTRY_CODE1', "merchantId":'COMID_VALUE1'},{"country":'COUNTRY_CODE1', "merchantId":'COMID_VALUE1'}],
+			"merchantInfo": [{"country":'COUNTRY_CODE1', "merchantId":'COMID_VALUE1'},{"country":'COUNTRY_CODE1', "merchantId":'COMID_VALUE1'}],
 			"orderValue": 'ORDER_VALUE',
 			"orderId": 'ORDER_ID',
 			"returningUser": true,
