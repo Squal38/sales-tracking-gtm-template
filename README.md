@@ -25,7 +25,7 @@ Make sure you have a **Merchant Id** and **Country code** that you can find on t
 
 ## <a name="datalayer"></a>Include data in your datalayer
 
-You need to add in your "Thank you page" (the page displayed after customer payment) the following datalayer:
+You need to add in your "Thank you page" (the page displayed after customer payment), the following datalayer **above your container snippet**:
 
 ```
 <script>
