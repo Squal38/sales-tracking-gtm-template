@@ -34,14 +34,9 @@ You need to add in your "Thank you page" (the page displayed after customer paym
 		"kkstrack": {
 			"merchantInfo": [{ "country":'COUNTRY_CODE', "merchantId":'COMID_VALUE' }],
 			"orderValue": 'ORDER_VALUE',
-			"orderId": 'ORDER_ID',
-			"returningUser": true,
-			"basket": [
-				{"productname": 'PRODUCTx_NAME',"productid": 'PRODUCTx_ID',"quantity": 'PRODUCTx_QUANTITY',"price": 'PRODUCTx_PRICE'},
-				{"productname": 'PRODUCTx_NAME',"productid": 'PRODUCTx_ID',"quantity": 'PRODUCTx_QUANTITY',"price": 'PRODUCTx_PRICE'}
-			]
+			"orderId": 'ORDER_ID'
 		}
-    };
+    });
 </script>
 ```
 
@@ -68,14 +63,9 @@ If you have several campaigns with Kelkoo Group, then you have several Merchant 
 		"kkstrack": {
 			"merchantInfo": [{"country":'COUNTRY_CODE1', "merchantId":'COMID_VALUE1'},{"country":'COUNTRY_CODE2', "merchantId":'COMID_VALUE2'}],
 			"orderValue": 'ORDER_VALUE',
-			"orderId": 'ORDER_ID',
-			"returningUser": true,
-			"basket": [
-				{"productname": 'PRODUCTx_NAME',"productid": 'PRODUCTx_ID',"quantity": 'PRODUCTx_QUANTITY',"price": 'PRODUCTx_PRICE'},
-				{"productname": 'PRODUCTx_NAME',"productid": 'PRODUCTx_ID',"quantity": 'PRODUCTx_QUANTITY',"price": 'PRODUCTx_PRICE'}
-			]
+			"orderId": 'ORDER_ID'
 		}
-    };
+    });
 </script>
 ```
 
@@ -86,27 +76,6 @@ This the total amount of the customer basket. It can be any real number with dot
 ### ORDER_ID:
 
 This can be any string identifying the order. This value must be unique for each order.
-
-#### returningUser:
-
-This allows you to tell if it is a returning user or a new user. It is optional to provide it.
-
-
-#### Optional PRODUCTx_NAME:
-
-This can be any string that represent the product name.
-
-#### Optional PRODUCTx_ID:
-
-This can be any string that identify the product code.
-
-#### Optional PRODUCTx_QUANTITY:
-
-This can be any positive integer number representing the number of items for that specific product.
-
-#### Optional PRODUCTx_PRICE:
-
-This can be any real number with dot as decimal point representing the price of the single product. Please do not add currency symbol.
 
 ## <a name="test"></a>Test your integration
 
